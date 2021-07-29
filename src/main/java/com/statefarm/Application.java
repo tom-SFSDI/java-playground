@@ -16,6 +16,10 @@ public class Application {
             System.out.println(files.replace(" ", "-"));
 
         });
+
+        String[] strings = {"Alice", "Bob", "Carol", "Joseph"};
+        AccumulatorPractice tom = new AccumulatorPractice();
+        System.out.println(tom.toSentence(strings));
     }
 }
 
